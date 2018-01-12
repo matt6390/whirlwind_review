@@ -17,7 +17,9 @@ end
 
 class Deck
   def initialize(input_options)
-    cards = Card.new(input_options)
+    card_1 = Card.new(input_options)
+    card_2 = Card.new(input_options)
+    card_3 = Card.new(input_options)
   end
 
   def draw_card 
